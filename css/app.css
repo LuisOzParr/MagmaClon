@@ -1,0 +1,103 @@
+body{
+    background-image: url("../img/backgroun.jpg");
+    font-family: Lato-Light,sans-serif;
+    color: white;
+    background-size: cover;
+}
+
+.logo{
+    max-width: 284px;
+}
+
+/*NAVE*/
+
+nav.nav-heder{
+    margin: 5px 15px;
+}
+nav div.conten-menu{
+    margin-top: 22px;
+    display: inline-block;
+    float: right;
+}
+nav div.conten-logo{
+    display: inline-block;
+}
+
+nav ul.menu li{
+    display: inline-block;
+    margin-left: 25px;
+}
+nav ul.menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    transition: text-shadow .1s;
+
+}
+nav ul.menu li a:hover{
+    text-shadow: 0 0 2px #ffffff;
+}
+a.link.link-red{
+    color: #f84848;
+    transition: text-shadow .1s;
+
+}
+a.link.link-red:hover{
+    color: #ffffff;
+
+}
+
+a{
+    color: #ffffff;
+    transition: text-shadow .1s;
+}
+a:hover{
+    color: #f84848;
+    text-shadow: 0 0 2px #f84848;
+}
+
+/*TEXTO*/
+section.conten-text{
+    margin-top: 10px;
+    text-align: center;
+    padding: 4em;
+}
+h1{
+    margin-top: 10px;
+    color: #f84848;
+    font-size: 2.75em;
+}
+p{
+    line-height: 1.5em;
+    font-size: 1.25em;
+    font-weight: 100;
+}
+section.conten-text ul{
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+section.conten-text ul li{
+    margin-right: 4em;
+    color: #f84848;
+}
+section.conten-text ul li samp{
+    color: #ffffff;
+    font-family: Lato-Light,sans-serif;
+}
+div.conten-icon{
+    margin-top: 44px;
+}
+
+i.btn{
+    display: inline-block;
+    background: url("../img/svg.svg") 4px -13px no-repeat;
+    height: 66px;
+    width: 108px;
+}
+i.btn:hover{
+    background: url("../img/svg.svg") -99px -13px no-repeat;
+    height: 66px;
+    width: 108px;
+}
